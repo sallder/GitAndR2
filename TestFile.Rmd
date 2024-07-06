@@ -1,0 +1,16 @@
+---
+title: "Testfile"
+author: "Scott Allder"
+date: "2024-07-06"
+output: html_document
+---
+
+
+```{r}
+get_yesterday <- function() {
+  return(Sys.Date() - 1)
+}
+```
+
+
+
